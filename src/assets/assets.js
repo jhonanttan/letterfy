@@ -21,6 +21,8 @@ import volume_icon from './volume.png'
 import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
+import logo_letterfy from './logo_letterfy.png'
+import sticker_1 from './sticker_1.avif'
 import clock_icon from './clock_icon.png'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
@@ -66,117 +68,157 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    logo_letterfy,
+    sticker_1,
 }
 
 export const albumsData = [
     {   
-        id:0,
-        name: "Top 50 Global",
+        id: 0,
+        name: "Top 50 Mundial",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#2a4365"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#2a4365"
     },
     {   
-        id:1,
-        name: "Top 50 India",
+        id: 1,
+        name: "Top 50 Índia",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#22543d"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#22543d"
     },
     {   
-        id:2,
-        name: "Trending India",
+        id: 2,
+        name: "Tendências Índia",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#742a2a"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#742a2a"
     },
     {   
-        id:3,
-        name: "Trending Global",
+        id: 3,
+        name: "Tendências Globais",
         image: img16,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#44337a"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#44337a"
     },
     {   
-        id:4,
+        id: 4,
         name: "Mega Hits",
         image: img11,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#234e52"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#234e52"
     },
     {   
-        id:5,
-        name: "Happy Favorites",
+        id: 5,
+        name: "Favoritas Alegres",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#744210"
+        desc: "Sua atualização semanal das músicas mais tocadas",
+        bgColor: "#744210"
     }
-]
+];
 
 export const songsData = [
     {
-        id:0,
-        name: "Song One",
+        id: 0,
+        name: "Música Um",
         image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        file: song1,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "3:00"
     },
     {
-        id:1,
-        name: "Song Two",
+        id: 1,
+        name: "Música Dois",
         image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        file: song2,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:20"
     },
     {
-        id:2,
-        name: "Song Three",
+        id: 2,
+        name: "Música Três",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        file: song3,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:32"
     },
     {
-        id:3,
-        name: "Song Four",
+        id: 3,
+        name: "Música Quatro",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file: song1,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:50"
     },
     {
-        id:4,
-        name: "Song Five",
+        id: 4,
+        name: "Música Cinco",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        file: song2,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "3:10"
     },
     {
-        id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        id: 5,
+        name: "Música Seis",
+        image: img14,
+        file: song3,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:45"
     },
     {
-        id:6,
-        name: "Song Seven",
+        id: 6,
+        name: "Música Sete",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        file: song1,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:18"
     },
     {
-        id:7,
-        name: "Song Eight",
+        id: 7,
+        name: "Música Oito",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file: song2,
+        desc: "Coloque um sorriso no rosto com essas músicas animadas",
+        duration: "2:35"
     }
-]
+];
+
+export const favoriteSongs = [
+    {
+        id: 0,
+        name: "Música Um",
+        image: img1,
+        file: song1,
+        duration: "3:00",
+    },
+    {
+        id: 1,
+        name: "Música Dois",
+        image: img2,
+        file: song2,
+        duration: "2:20",
+    },
+    {
+        id: 2,
+        name: "Música Três",
+        image: img3,
+        file: song3,
+        duration: "2:32",
+    },
+    {
+        id: 3,
+        name: "Música Quatro",
+        image: img4,
+        file: song1,
+        duration: "2:50",
+    },
+    {
+        id: 4,
+        name: "Música Cinco",
+        image: img5,
+        file: song2,
+        duration: "3:10",
+    },
+];
